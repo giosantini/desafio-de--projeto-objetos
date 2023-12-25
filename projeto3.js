@@ -31,3 +31,15 @@ class personagem{
     }
 }
 
+const heroiMago = new personagem ('harry potter', 100, 'mago')
+const heroiGuerreiro = new personagem ('rambo', 50, 'guerreiro')
+const heroiMonge = new personagem ('jet li', 20, 'monge')
+const heroiNinja = new personagem ('raizo', 10, 'ninja')
+
+heroiMago.atacar()
+heroiGuerreiro.atacar()
+heroiMonge.atacar()
+heroiNinja.atacar()
+
+
+
